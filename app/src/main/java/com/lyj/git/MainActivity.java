@@ -9,6 +9,7 @@ import android.widget.TextView;
  */
 public class MainActivity extends AppCompatActivity {
     private final String mStrOne = "master-5.8";
+    private final String mStrTwo ="master-5.8.1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         TextView tvContent = findViewById(R.id.tv_content);
         tvContent.setText(mStrOne);
+        tvContent.setText(mStrTwo);
     }
 }
