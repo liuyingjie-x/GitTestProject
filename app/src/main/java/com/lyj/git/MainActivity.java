@@ -23,4 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tvContent.setText(mStrOne);
         tvContent.setText(mStrTwo);
     }
+    private void test(){
+
+    }
 }
